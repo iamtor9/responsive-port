@@ -97,7 +97,7 @@ body {
 
   .bg-image {
     /* background blurred image used */
-    background-image: url("cloudpic.jpg");
+    background-image: url=("/Users/victoriasorone/Desktop/codehw/responsive-port/assets/cloudpic.jpg");
     filter: blur(8px);
     /*-webkit-filter: blur(8px);*/
     
