@@ -77,10 +77,6 @@ position: fixed;
     color: white;
   }
   
-  .youtube {
-    background: #bb0000;
-    color: white;
-  }
 /*social media ends*/
 
 /*main blurred background and intro begins*/
@@ -165,7 +161,7 @@ height: 250px;
 padding: 30px 30px 20px;
 font-family: impact;
 font-size: 50px;
-color: black;
+color: whitesmoke;
 line-height: 42px;
 }
 
@@ -173,7 +169,7 @@ line-height: 42px;
     padding: 0px 30px 20px;
     font-family: impact;
     font-size: 20px;
-    color: black;
+    color:whitesmoke;
     line-height: 42px;
 }
 
