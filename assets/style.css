@@ -88,29 +88,25 @@ body {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
+
+    .bg-image 
+      /* background blurred image used */
+      
+      filter: blur(8px);
+      background-image: url("france.jpg"), url("cloudpic.jpg");
+      /*-webkit-filter: blur(8px);*/
+      /*height: 500%; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
   
   * {
     box-sizing: border-box;
   }
   
 
-  .bg-image {
-    /* background blurred image used */
-    background-image: url=("/Users/victoriasorone/Desktop/codehw/responsive-port/assets/cloudpic.jpg");
-    filter: blur(8px);
-    /*-webkit-filter: blur(8px);*/
-    
-    
-    /* Full height */
-    height: 500%; 
-    
-    /* Center and scale background blurred image */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
   /* main box text style and position*/
   /* text box /middle */
   .bg-text {
@@ -193,12 +189,7 @@ line-height: 42px;
 /* mobile responsiveness begins*/
 
 @media only screen and (min-width: 640px) {
-    .img-banner {
-        display: block;
-        width: 100%;
-        padding-bottom: 30px;
-    }
-
+  
     .wrapper {
         width: 600px;
         margin: 0 auto;
