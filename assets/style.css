@@ -181,6 +181,15 @@ line-height: 42px;
     size: 200px 200px;
     
 }
+.container {
+  height: 80%;
+  width: 50%;
+  padding: 40px;
+  float: right;
+  margin-right: 300px;
+
+
+}
 
 /* mobile responsiveness begins*/
 
