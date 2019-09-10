@@ -2,76 +2,129 @@
 ========
 https://iamtor9.github.io/responsive-port/index.html
 =======
-Assignment Two Instructions - (No Bootstrap)
+
+Overview
+Now that you've had some practice with HTML and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
+If you are opting out of career services, this is still a required assignment. Part of being a web developer means being a part of a community. Having a place to share your projects is necessary if you're applying for jobs, but is still critical on your journey as a developer.
+
+Before you Begin
 
 
-Copy the contents of Basic-Portfolio (your first homework solution) and paste the mentioned files into Responsive-Portfolio.
+Pin some repos that you want to share
 
 
-Note: Be sure not to include any dot files (e.g. .git, .gitignore) from the Basic-Portfolio repo.
+Navigate to your GitHub Profile
 
 
-If you chose the Wireframe exercise for your first homework assignment, talk to a TA, who will provide you with a template for your portfolio.
+Click "Customize your pinned repositories"
 
 
-Inside your Responsive-Portfolio folder, find your styles.css file. You will write your media queries at the bottom of styles.css.
+Click the "Repositories you contribute to" checkbox (this will allow you to "pin" Project 1 even if you aren't the "owner")
 
 
-Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px.
+Click the checkboxes for your project and 2-3 homework assignments that you would like to share
 
 
-You use 980px because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
-
-
-768px is about the width of a tablet and 640px is about the width of a phone in landscape.
-
-
-
-
-Make the layout match the following screenshots:
-
-
-index.html: 980px, 768px, 640px
-
-
-portfolio.html: 980px, 768px, 640px
-
-
-contact.html: 980px, 768px, 640px
+Make sure each of these projects is deployed and add a link to the deployed project in their README files
 
 
 
 
-Make the position of the header static (the default positioning) when the screen is 640px wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.
+Revisit your portfolio page
 
 
-Be sure to include the viewport tag in all your HTML files, otherwise your media-queries won't function as expected on mobile devices. (Hint: You won't need to use exact pixels for anything other than the container)
+Open up your old portfolio page
 
 
-Protip: Use the Chrome extensions Window Resizer and Browser Width to see the browser dimensions in Chrome.
-
-
-Deploy your new portfolio (now with media queries!) to GitHub Pages.
+Read through the rest of the homework requirements and decide whether you can update your existing portfolio page or if you want to start fresh now that you've had some more HTML/CSS practice (you may also want to change it to be a single page instead of multiple pages or you might even want to consider using a paid theme)
 
 
 
-Submitting Your Work on BootCampSpot
+
+
+Required: Update your Portfolio Site -- Employer Ready
+To receive a passing grade on this assignment, you should meet all of the content and design requirements listed below as well as all of the requirements listed under "Polish Your Portfolio & Github" in the "Employer Ready" section of the Employer Ready vs. Employer Competitive Checklist. These two sets of requirements should be mostly the same.
+
+Content
+Your updated site should have the following content:
+
+
+Your name
+
+
+Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+
+
+A link to a PDF of your resume
+
+
+List of projects. For each project make sure you have the following:
+
+
+Project title
+
+
+Link to the deployed version
+
+
+Link to the code on GitHub
 
 
 
-Submit the GitHub links to your portfolio repositories on GitHub.
 
 
-Submit the link to your (GitHub Pages) deployed site in the same input field.
+Design
+The content of your portfolio page is a lot more important than the aesthetics. That said, there are a couple basic requirements your portfolio page should meet:
+
+
+Mobile-friendliness: you don't need advanced responsive styles, but you should ensure that your portfolio page is still readable on different screen sizes
+
+
+Readability: make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
 
 
-BONUS
+Suggested: Update Portfolio -- Employer Competitive
+To receive an "A" on this assignment, you should also meet the following requirements
+to ensure your portfolio site will help you be employer competitive.
 
-Incorporate CSS animations in your portfolio. More info here.
+Competitive Content
 
 
-Reminder: Submission on BCS
+At least 3 deployed projects
 
-Please submit both the deployed Github.io link to your homework AND the link to the Github Repository!
 
+External content:
+
+
+Update your LinkedIn with the projects you've worked on so far
+
+
+Update the README for each project you linked to with a description of the problem,
+how you solved it, and some information about your technical approach
+
+
+Suggested: refactor some of your code from earlier assignments to make them more readable
+
+
+
+
+
+Competitive Design
+Unfortunately, this is where it gets a little bit subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
+
+
+Mobile-first design: you should be proud to pull out your phone and share
+your portfolio site with a friend, family member, or someone at a meetup.
+
+
+Polish: choose a color palette for your site so it doesn't just look like
+the default bootstrap theme or an unstyled HTML site.
+
+
+Images: add a meaningful screenshot for each of your projects
+
+
+If you want a slick-looking site, but don't feel good about your CSS skills,
+check out CV, Resume, and Portfolio site template
