@@ -8,7 +8,7 @@ body {
   .topnav {
     overflow: hidden;
     background-color: #333;
-    position: sticky;
+    position: sticky, absolute;
   }
   
   .topnav a {
@@ -190,6 +190,32 @@ line-height: 42px;
 
 
 }
+
+/* FONT STYLES*/
+.torminator {
+font-size: 50px;
+color: yellow;
+}
+
+.torminator2 {
+font-size: 100px;
+color: yellow;
+}
+
+.torminator3 {
+font-size: 70px;
+color: #333;
+font-style: italic;
+font-family: monospace;
+}
+
+#network {
+  font-size: 25px;
+  color: yellow;
+  
+
+}
+
 
 /* mobile responsiveness begins*/
 
